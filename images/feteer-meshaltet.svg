@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="feteerBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FCF3E2"/>
+      <stop offset="100%" stop-color="#E5CDA6"/>
+    </radialGradient>
+    <radialGradient id="feteerRound" cx="45%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#FFF0D0"/>
+      <stop offset="35%" stop-color="#F2CA7A"/>
+      <stop offset="70%" stop-color="#D99C3D"/>
+      <stop offset="90%" stop-color="#AA671C"/>
+      <stop offset="100%" stop-color="#784008"/>
+    </radialGradient>
+    <linearGradient id="blister" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B3308"/>
+      <stop offset="100%" stop-color="#3D1901"/>
+    </linearGradient>
+    <filter id="feteerShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#4A2604" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#feteerBg)"/>
+
+  <!-- Large Egyptian Brass Round Tray (صينية فلاحي نحاس) -->
+  <g opacity="0.85">
+    <ellipse cx="200" cy="165" rx="165" ry="88" fill="#B88A44"/>
+    <ellipse cx="200" cy="163" rx="158" ry="84" fill="#D6A95C"/>
+    <ellipse cx="200" cy="161" rx="150" ry="79" fill="#9E7332"/>
+  </g>
+
+  <!-- The Feteer Meshaltet (Rich, golden, flaky layered disc) -->
+  <g filter="url(#feteerShadow)">
+    <!-- Base Round -->
+    <ellipse cx="200" cy="160" rx="138" ry="70" fill="url(#feteerRound)"/>
+
+    <!-- Concentric Flaky Swirls & Fold Layers (توريق الفطير بالسمن البلدي) -->
+    <path d="M 90 160 Q 150 125 250 135 Q 310 145 325 162" fill="none" stroke="#D18E29" stroke-width="3" opacity="0.7"/>
+    <path d="M 105 170 Q 170 145 260 152 Q 295 165 305 175" fill="none" stroke="#E8AE4D" stroke-width="2.5" opacity="0.8"/>
+    <path d="M 125 150 Q 185 130 240 138 Q 285 145 290 158" fill="none" stroke="#FDE5B3" stroke-width="2" opacity="0.6"/>
+    <path d="M 140 180 Q 190 170 250 172 Q 275 180 280 188" fill="none" stroke="#C47E1E" stroke-width="2.5" opacity="0.7"/>
+
+    <!-- Puffy Golden Baked Bubbles (قرمشة الفطير المشلتت) -->
+    <!-- Large browned puffs -->
+    <ellipse cx="160" cy="145" rx="18" ry="9" fill="url(#blister)" opacity="0.85" transform="rotate(-10 160 145)"/>
+    <ellipse cx="158" cy="144" rx="14" ry="6" fill="#FAD189" opacity="0.4" transform="rotate(-10 158 144)"/>
+
+    <ellipse cx="225" cy="140" rx="22" ry="11" fill="url(#blister)" opacity="0.9" transform="rotate(8 225 140)"/>
+    <ellipse cx="223" cy="138" rx="17" ry="7" fill="#FAD189" opacity="0.4" transform="rotate(8 223 138)"/>
+
+    <ellipse cx="195" cy="168" rx="20" ry="10" fill="url(#blister)" opacity="0.85" transform="rotate(-4 195 168)"/>
+    <ellipse cx="255" cy="165" rx="16" ry="8" fill="url(#blister)" opacity="0.8" transform="rotate(15 255 165)"/>
+    <ellipse cx="130" cy="165" rx="14" ry="7" fill="url(#blister)" opacity="0.8" transform="rotate(5 130 165)"/>
+    <ellipse cx="270" cy="148" rx="12" ry="6" fill="url(#blister)" opacity="0.75"/>
+
+    <!-- Melted Farm Butter/Ghee Sheen (لمعة السمن الفلاحي) -->
+    <ellipse cx="200" cy="150" rx="75" ry="32" fill="#FFF9E6" opacity="0.45" transform="rotate(-2 200 150)"/>
+    <ellipse cx="170" cy="140" rx="35" ry="14" fill="#FFFFFF" opacity="0.3" transform="rotate(-5 170 140)"/>
+
+    <!-- Flaky edge details (طبقات مورقة عند الحواف) -->
+    <path d="M 75 160 C 80 150, 95 140, 115 135" stroke="#945712" stroke-width="1.8" fill="none" opacity="0.7"/>
+    <path d="M 290 180 C 315 175, 325 168, 335 160" stroke="#945712" stroke-width="1.8" fill="none" opacity="0.7"/>
+  </g>
+</svg>

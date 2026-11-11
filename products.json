@@ -12,7 +12,7 @@
       "availability": "available",
       "origin": { "ar": "", "en": "" },
       "storage": { "ar": "", "en": "" },
-      "image": "images/placeholder-bread.svg"
+      "image": "images/aish-rahaly.svg"
     },
     {
       "id": "koras",
@@ -26,7 +26,7 @@
       "availability": "available",
       "origin": { "ar": "", "en": "" },
       "storage": { "ar": "", "en": "" },
-      "image": "images/placeholder-bread.svg"
+      "image": "images/koras.svg"
     },
     {
       "id": "feteer-meshaltet",
@@ -40,7 +40,7 @@
       "availability": "coming_soon",
       "origin": { "ar": "", "en": "" },
       "storage": { "ar": "", "en": "" },
-      "image": "images/placeholder-bread.svg"
+      "image": "images/feteer-meshaltet.svg"
     },
     {
       "id": "qareesh",
@@ -54,7 +54,7 @@
       "availability": "available",
       "origin": { "ar": "", "en": "" },
       "storage": { "ar": "", "en": "" },
-      "image": "images/placeholder-dairy.svg"
+      "image": "images/qareesh.svg"
     },
     {
       "id": "fallahy-butter",
@@ -68,7 +68,7 @@
       "availability": "available",
       "origin": { "ar": "", "en": "" },
       "storage": { "ar": "", "en": "" },
-      "image": "images/placeholder-dairy.svg"
+      "image": "images/fallahy-butter.svg"
     }
   ]
 }

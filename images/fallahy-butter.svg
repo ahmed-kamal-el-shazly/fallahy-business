@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="butterBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FCF8EB"/>
+      <stop offset="100%" stop-color="#EBE1C7"/>
+    </radialGradient>
+    <!-- Rich Golden-Yellow Egyptian Buffalo/Cow Farm Butter (كور الزبدة الفلاحي) -->
+    <radialGradient id="butterBall" cx="38%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="25%" stop-color="#FCEAB3"/>
+      <stop offset="65%" stop-color="#F2D172"/>
+      <stop offset="90%" stop-color="#CCA33D"/>
+      <stop offset="100%" stop-color="#9C7721"/>
+    </radialGradient>
+    <radialGradient id="butterBackBall" cx="38%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#FCEBB8"/>
+      <stop offset="55%" stop-color="#E5BE59"/>
+      <stop offset="100%" stop-color="#94701B"/>
+    </radialGradient>
+    <!-- Clay / Pottery bowl (طاجن فخار فلاحي) -->
+    <radialGradient id="potteryGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#D4734B"/>
+      <stop offset="70%" stop-color="#A84C28"/>
+      <stop offset="100%" stop-color="#732F15"/>
+    </radialGradient>
+    <filter id="butterShadow" x="-15%" y="-15%" width="135%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4F380A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#butterBg)"/>
+
+  <!-- Rustic Earthenware Clay Dish (طاجن / صحن فخار) -->
+  <g opacity="0.95">
+    <ellipse cx="200" cy="215" rx="155" ry="50" fill="#662912"/>
+    <ellipse cx="200" cy="210" rx="148" ry="46" fill="url(#potteryGrad)"/>
+    <ellipse cx="200" cy="204" rx="138" ry="40" fill="#8A3B1C"/>
+    <ellipse cx="200" cy="202" rx="130" ry="36" fill="#F0E3CA" opacity="0.6"/>
+  </g>
+
+  <!-- Left Back Butter Ball -->
+  <g filter="url(#butterShadow)">
+    <ellipse cx="145" cy="155" rx="55" ry="48" fill="url(#butterBackBall)" transform="rotate(-6 145 155)"/>
+    <!-- Hand-churned texture (تعريجات وتطبيع أصابع الفلاحة على كورة الزبدة) -->
+    <path d="M 110 145 Q 135 130 165 140" stroke="#CCA33D" stroke-width="2.5" fill="none" opacity="0.6"/>
+    <path d="M 115 162 Q 140 152 170 160" stroke="#CCA33D" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- Subtle soft highlight -->
+    <ellipse cx="135" cy="140" rx="22" ry="12" fill="#FFFFFF" opacity="0.4" transform="rotate(-15 135 140)"/>
+  </g>
+
+  <!-- Right Back Butter Ball -->
+  <g filter="url(#butterShadow)">
+    <ellipse cx="250" cy="152" rx="54" ry="46" fill="url(#butterBackBall)" transform="rotate(8 250 152)"/>
+    <path d="M 225 140 Q 250 132 275 142" stroke="#CCA33D" stroke-width="2.5" fill="none" opacity="0.6"/>
+    <ellipse cx="242" cy="138" rx="20" ry="10" fill="#FFFFFF" opacity="0.35" transform="rotate(10 242 138)"/>
+  </g>
+
+  <!-- Front Center Butter Ball (Freshly Churned Farm Butter Sphere) -->
+  <g filter="url(#butterShadow)">
+    <!-- Organic hand-shaped sphere -->
+    <path d="M 140 185 C 135 150, 160 130, 200 130 C 240 130, 265 150, 260 185 C 255 220, 235 230, 200 230 C 165 230, 145 220, 140 185 Z" fill="url(#butterBall)"/>
+
+    <!-- Hand-pressed ripples / ridges (تموجات تشكيل الزبدة باليد) -->
+    <path d="M 158 165 C 175 150, 215 150, 238 168" stroke="#DDAF38" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M 155 185 C 175 170, 220 170, 245 188" stroke="#DDAF38" stroke-width="3" fill="none" opacity="0.65"/>
+    <path d="M 165 205 C 182 195, 215 195, 235 208" stroke="#B88B25" stroke-width="2.5" fill="none" opacity="0.6"/>
+
+    <!-- Creamy Gloss / Dew of Buttermilk (لمعان الزبدة الطازجة وقطرات اللبن) -->
+    <ellipse cx="185" cy="152" rx="30" ry="16" fill="#FFFFFF" opacity="0.55" transform="rotate(-12 185 152)"/>
+    <ellipse cx="175" cy="148" rx="14" ry="7" fill="#FFFFFF" opacity="0.75" transform="rotate(-15 175 148)"/>
+
+    <!-- Delicate buttermilk droplets -->
+    <circle cx="170" cy="190" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="225" cy="180" r="2" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="210" cy="205" r="2" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+
+  <!-- Green Mint or Citrus Leaf garnish on rim (ورقة خضرة زينة) -->
+  <g fill="#4E8240" stroke="#36612B" stroke-width="1" filter="url(#butterShadow)">
+    <path d="M 100 220 C 85 205, 100 190, 115 202 C 125 212, 110 226, 100 220 Z"/>
+    <path d="M 100 220 Q 108 208 115 202" stroke="#75A665" stroke-width="1.2" fill="none"/>
+  </g>
+</svg>

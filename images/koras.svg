@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <radialGradient id="korasBg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#FDF4E5"/>
+      <stop offset="100%" stop-color="#EAD7BB"/>
+    </radialGradient>
+    <radialGradient id="korasGolden" cx="42%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#F5E0B3"/>
+      <stop offset="45%" stop-color="#E2B870"/>
+      <stop offset="80%" stop-color="#C28938"/>
+      <stop offset="100%" stop-color="#8F5418"/>
+    </radialGradient>
+    <filter id="koraShadow" x="-15%" y="-15%" width="135%" height="135%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#54310C" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#korasBg)"/>
+
+  <!-- Rustic Cloth / Mat hint -->
+  <ellipse cx="200" cy="225" rx="175" ry="42" fill="#D4BFA0" opacity="0.4"/>
+
+  <!-- Left Koras (slightly back) -->
+  <g filter="url(#koraShadow)">
+    <ellipse cx="130" cy="155" rx="68" ry="54" fill="url(#korasGolden)" transform="rotate(-8 130 155)"/>
+    <!-- Fork Pricks / Pokes (نغزات الشوكة المميزة للقرص) -->
+    <g fill="#61350B" opacity="0.65">
+      <circle cx="115" cy="140" r="2.5"/><circle cx="125" cy="138" r="2.5"/><circle cx="135" cy="142" r="2.5"/>
+      <circle cx="118" cy="155" r="2.5"/><circle cx="130" cy="152" r="2.5"/><circle cx="140" cy="157" r="2.5"/>
+      <circle cx="112" cy="168" r="2.5"/><circle cx="123" cy="166" r="2.5"/><circle cx="134" cy="170" r="2.5"/>
+    </g>
+    <!-- Sesame Seeds (سمسم) -->
+    <g fill="#FBEED3" stroke="#875620" stroke-width="0.5" opacity="0.9">
+      <ellipse cx="110" cy="130" rx="3.5" ry="2" transform="rotate(25 110 130)"/>
+      <ellipse cx="140" cy="135" rx="3.5" ry="2" transform="rotate(-15 140 135)"/>
+      <ellipse cx="125" cy="148" rx="3.5" ry="2" transform="rotate(45 125 148)"/>
+      <ellipse cx="150" cy="155" rx="3.5" ry="2" transform="rotate(-30 150 155)"/>
+      <ellipse cx="105" cy="160" rx="3.5" ry="2" transform="rotate(10 105 160)"/>
+      <ellipse cx="135" cy="170" rx="3.5" ry="2" transform="rotate(-40 135 170)"/>
+    </g>
+  </g>
+
+  <!-- Right Koras (slightly back) -->
+  <g filter="url(#koraShadow)">
+    <ellipse cx="270" cy="150" rx="65" ry="52" fill="url(#korasGolden)" transform="rotate(10 270 150)"/>
+    <!-- Sesame Seeds -->
+    <g fill="#FBEED3" stroke="#875620" stroke-width="0.5" opacity="0.9">
+      <ellipse cx="250" cy="135" rx="3.5" ry="2" transform="rotate(15 250 135)"/>
+      <ellipse cx="280" cy="138" rx="3.5" ry="2" transform="rotate(-25 280 138)"/>
+      <ellipse cx="265" cy="150" rx="3.5" ry="2" transform="rotate(35 265 150)"/>
+      <ellipse cx="285" cy="162" rx="3.5" ry="2" transform="rotate(-10 285 162)"/>
+      <ellipse cx="245" cy="165" rx="3.5" ry="2" transform="rotate(40 245 165)"/>
+    </g>
+  </g>
+
+  <!-- Front Center Koras (Fresh, plump Egyptian القرص الفلاحي الطرية) -->
+  <g filter="url(#koraShadow)">
+    <ellipse cx="200" cy="180" rx="75" ry="58" fill="url(#korasGolden)"/>
+    <!-- Golden Gloss Highlight (سمنة بلدي) -->
+    <ellipse cx="185" cy="160" rx="45" ry="24" fill="#FFF2D6" opacity="0.38"/>
+
+    <!-- Fork Pricks pattern in center -->
+    <g fill="#572F08" opacity="0.75">
+      <circle cx="180" cy="165" r="2.5"/><circle cx="192" cy="163" r="2.5"/><circle cx="204" cy="165" r="2.5"/><circle cx="216" cy="168" r="2.5"/>
+      <circle cx="178" cy="178" r="2.5"/><circle cx="190" cy="176" r="2.5"/><circle cx="202" cy="177" r="2.5"/><circle cx="214" cy="180" r="2.5"/>
+      <circle cx="183" cy="190" r="2.5"/><circle cx="195" cy="188" r="2.5"/><circle cx="206" cy="190" r="2.5"/>
+    </g>
+
+    <!-- Generous Sesame and Black Seed sprinkles (سمسم وحبة بركة) -->
+    <g fill="#FDF1D8" stroke="#7A4B16" stroke-width="0.6">
+      <ellipse cx="165" cy="155" rx="4" ry="2.2" transform="rotate(20 165 155)"/>
+      <ellipse cx="210" cy="150" rx="4" ry="2.2" transform="rotate(-35 210 150)"/>
+      <ellipse cx="175" cy="170" rx="4" ry="2.2" transform="rotate(50 175 170)"/>
+      <ellipse cx="225" cy="172" rx="4" ry="2.2" transform="rotate(-15 225 172)"/>
+      <ellipse cx="195" cy="168" rx="4" ry="2.2" transform="rotate(10 195 168)"/>
+      <ellipse cx="170" cy="188" rx="4" ry="2.2" transform="rotate(-25 170 188)"/>
+      <ellipse cx="220" cy="192" rx="4" ry="2.2" transform="rotate(30 220 192)"/>
+      <ellipse cx="195" cy="202" rx="4" ry="2.2" transform="rotate(-5 195 202)"/>
+    </g>
+    <!-- Nigella seeds (حبة البركة) -->
+    <g fill="#211E1C">
+      <polygon points="185,152 188,154 186,157 183,155"/>
+      <polygon points="218,160 221,162 219,165 216,163"/>
+      <polygon points="172,178 175,180 173,183 170,181"/>
+      <polygon points="208,185 211,187 209,190 206,188"/>
+    </g>
+  </g>
+</svg>
